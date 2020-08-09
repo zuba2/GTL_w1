@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Joseph Azumah Bayata">
+  <title>Sign Up Form</title>
+  <style>
+*{
+    box-sizing: border-box;
+  }
+  
+  html,
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  .container{
+    max-width: 400px;
+    background-color:#f4f4f4;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #333;
+  }
+  
+  a{
+    text-decoration: none;
+    color:skyblue;
+    font-size: 14px;
+  }
+  
+  p{
+    font-size: 14px;
+    padding-top: 15px;
+  }
+  
+  h2{
+    padding: 8px;
+    font-size: 1.9rem;
+    color: skyblue;
+    text-align: center;
+  }
+  
+  h4{
+    font-size: 14px;
+    color: #333;
+    margin-top: 0;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  h5{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  label{
+    font-size: 12px;
+    display: block;
+  }
+  
+  input{
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  button{
+    border: none;
+    background-color: skyblue;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  
+  button:hover{
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* footer section */
+  footer{
+    background: #cecece;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer p{
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="container">
+      <h2>Sign Up</h2>
+      <h5>It's free and only takes a minute</h5>
+      <form>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName">
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="password">Password</label>
+        <input type="password"  name="password" id="password">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="confirmPassword">
+        <button>Sign Up</button>
+      </form>
+      <p>By clicking the Sign Up button, you agree to our <a href="#">Terms & Conditions</a> and <a href="#">Privecy Policy</a> </p>
+    </div>
+    <h4>Already have an account? <a href="index.html">Login Here</a></h4>
+  </div>
+  <footer>
+    <p>all rights reserved &copy;2020 Bayata Blog</p>
+</footer>
+</body>
+</html>
